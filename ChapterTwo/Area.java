@@ -1,4 +1,5 @@
 package ChapterTwo;
+// There can be only one public class per package/file
 
 // In this module, we will be creating a function or method to calculate the area of a circle with a radius provided as parameter. Note in java, Methods cannot be nested inside another method
 public class Area {

@@ -1,4 +1,5 @@
 package ChapterTwo;
+// There can be only one public class per package/file
 
 // main is a method and as by development, methods cannot be nested inside methods especially the main method
 public class Interest {
