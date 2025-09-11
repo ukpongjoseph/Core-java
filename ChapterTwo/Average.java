@@ -15,22 +15,18 @@ public class Average {
     }
     public static void main(String args[]){
         // Using Scanner Object to read inputs from console and then using the next in-built method to convert inputs to type of choice and then storing them inside a variable of compatible type
-        Scanner first = new Scanner(System.in);
-        Scanner second = new Scanner(System.in);
-        Scanner third = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // Prompting users for numbers and saving the inputs
         System.out.println("We will be calculating the average of three numbers !!!!");
         System.out.print("Enter your first number : ");
-        int num1 = first.nextInt();
+        int num1 = input.nextInt();
         System.out.print("Enter your second number : ");
-        int num2 = second.nextInt();
+        int num2 = input.nextInt();
         System.out.print("Enter your third number : ");
-        int num3 = third.nextInt();
+        int num3 = input.nextInt();
         double result = avg(num1, num2, num3);
-        first.close();
-        second.close();
-        third.close();
+        input.close();
         System.out.print("The average of " + num1 + " , " + num2 + " and " + num3 + " is " + result);
     }
 }
