@@ -11,7 +11,9 @@ public class Area {
         return (radius * radius * 3.142);
     }
     public static void main(String[] args){
-        double result = solve(4);
+        // The final keyword signifies that radii is a constant and its value cannot be changed or it cannot be reassigned a new value
+        final int radii = 20;
+        double result = solve(radii);
         System.out.println(result);
     }
 }
