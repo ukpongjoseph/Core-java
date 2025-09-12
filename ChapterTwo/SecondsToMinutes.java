@@ -23,5 +23,9 @@ public class SecondsToMinutes {
         int time = input.nextInt();
         timeConverter(time);
         input.close();
+        double base = 34;
+        int power = 3;
+        double result = Math.pow(base, power);
+        System.out.println(result);
     }
 }
