@@ -25,6 +25,7 @@ public class SecondsToMinutes {
         input.close();
         double base = 34;
         int power = 3;
+        // The result of Math.pow(a, b) method is a double precision value so any variable holding the result must be of double data type
         double result = Math.pow(base, power);
         System.out.println(result);
     }
