@@ -20,5 +20,8 @@ public class TemperatureConverter {
         double fahr = input.nextDouble();
         FahrCelc(fahr);
         input.close();
+        // method that displays current time in milliseconds from epoch
+        double time = System.currentTimeMillis();
+        System.out.println(time);
     }
 }
