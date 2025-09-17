@@ -22,6 +22,7 @@ public class ShowTime {
         long currentHour = totaltMinutes %24;
         // now let us get the total hour
         long totalHour = totaltMinutes/60;
+        System.out.println(totalHour);
         System.err.println("The current time is " + currentHour + "h:" + currentMinutes + "m:" + currentSeconds + "s");
         
 
