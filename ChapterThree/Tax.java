@@ -10,7 +10,7 @@ public class Tax {
         double income = input.nextDouble();
         System.out.print("Enter your filing status. Enter 0 for single, 1 for married (jointly or qualified widow), 2 for married filing seperately, 3 for head of household : ");
         int status = input.nextInt();
-        double tax;
+        double tax = 0;
         if(status == 0){
             if(income <= 8350){
                 tax = income * 0.1;
